@@ -11,6 +11,6 @@ const StatusMessage = ({winner,current}) => {
       {!winner && noMovesLeft && 'X and O Tied'}
     </h2>
   )
-}
+};
 
 export default StatusMessage
